@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <style>
-h2 {
-    color:blue;
-}
+#titulo1 {color:green;}
+#titulo2 {color:blueviolet}
+
+p {color:darkred}
+
 </style>
 
 
@@ -21,19 +23,19 @@ function ApagaALuz(){
 </script>
 <body>
 
-<h2>What Can JavaScript Do?</h2>
+<h2 id="titulo1">What Can JavaScript Do?</h2>
 
 <p>JavaScript can change HTML attribute values.</p>
 
 <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
 
-<button onclick="AcendeALuz()">Turn on the light</button>
+<button onmouseover="AcendeALuz()">Turn on the light</button>
 
 <img id="myImage" src="imagens/pic_bulboff.gif" style="width:100px">
 
-<button onclick="ApagaALuz()">Turn off the light</button>
+<button onmouseover="ApagaALuz()">Turn off the light</button>
 
-<h2>Segundo Titulo da Página</h2>
+<h2 id="titulo2">Segundo Titulo da Página</h2>
 <p>JavaScript can change HTML attribute values.</p>
 </body>
 </html>
